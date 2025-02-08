@@ -187,10 +187,28 @@ body {
     }
     .page1-img{
         width: 90%;
-        background: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/fcc79fff0a31cd4c6290d3d3ada29edf.png);
+        /* background: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/fcc79fff0a31cd4c6290d3d3ada29edf.png); */
         background-size: cover;
     }
+    .image{
+        margin-left: 0;
+        background-repeat: no-repeat;
+    }
+    .nav-options span{
+        display: none;
+    }
 }
+.menu-option{
+    display: flex;
+    color: red;
+}
+
+@media (min-width: 990px){
+    .nav-options .menu-option{
+        display: contents;
+    }
+}
+
 .box-inside{
     padding: 0 25px;
 }
